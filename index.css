@@ -1,0 +1,55 @@
+#bluebar {
+    color: white;
+    background-color: #4267b2;
+    border-bottom: 1px solid #29487d;
+}
+
+.component {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 42px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+}
+
+.searchbar {
+    line-height: 22px;
+    padding: 3px 0 0;
+    width: 450px;
+}
+
+.quick-navigate {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+}
+
+.hoverbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    width: 70px;
+}
+
+.hoverbox:hover {
+    background-color:  #2f487a;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px
+}
