@@ -1,12 +1,8 @@
-body {
-    font-family: Arial, sans-serif;
-}
-
 #bluebar {
-    color: white;
+    font-family: Arial, sans-serif;
     background-color: #4267b2;
     border-bottom: 1px solid #29487d;
-    padding-right: 205px;
+    padding-right: 290px;
     padding-left: 14px;
     position: fixed;
     top: 0px;
@@ -26,8 +22,12 @@ body {
     margin-left: 50px;
 }
 
+.logo {
+    color: white;
+}
+
 .searchbar {
-    margin: 5px 7px;
+    margin: 1px 7px;
     padding: 5px 0 0 8px;
     width: 400px;
     height: 18px;
@@ -37,30 +37,54 @@ body {
 
 .quick-navigate {
     display: flex;
+    justify-content: space-around;
     width: 500px;
-    margin-left: 200px;
+    margin-left: 160px;
+    font-size: 13px;
+    margin-top: -2px;
+}
+
+.avatar {
+    object-fit: cover;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
 }
 
 .hoverbox {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 32px;
-    width: 70px;
+
+    color: white;
 }
 
 .hoverbox:hover {
-    background-color:  #2f487a;
+    background-color:  #3a5a99;
+    border-radius: 3px;
 }
 
 .myself {
     display: flex;
     justify-content: space-around;
+    height: 30px;
+    width: 70px;
+}
+
+.home {
+    height: 30px;
+    width: 75px;
+}
+
+.new {
+    height: 30px;
+    width: 45px;
 }
 
 .icons {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 150px
+    width: 160px;
+    color: rgba(0, 0, 0, 0.582);
 }
