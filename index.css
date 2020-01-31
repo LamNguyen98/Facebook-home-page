@@ -1,38 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
 #bluebar {
     color: white;
     background-color: #4267b2;
     border-bottom: 1px solid #29487d;
+    padding-right: 205px;
+    padding-left: 14px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
 }
 
-.component {
+.blue-bar {
     display: flex;
-    justify-content: space-around;
     align-items: center;
     height: 42px;
 }
 
 .container {
     display: flex;
-    justify-content: space-around;
-}
-
-.logo {
-    display: flex;
-    justify-content: center;
     align-items: center;
-    width: 50px;
+    margin-left: 50px;
 }
 
 .searchbar {
-    line-height: 22px;
-    padding: 3px 0 0;
-    width: 450px;
+    margin: 5px 7px;
+    padding: 5px 0 0 8px;
+    width: 400px;
+    height: 18px;
+    border-radius: 2px;
+    border-style: none;
 }
 
 .quick-navigate {
     display: flex;
-    justify-content: space-around;
     width: 500px;
+    margin-left: 200px;
 }
 
 .hoverbox {
@@ -47,9 +53,14 @@
     background-color:  #2f487a;
 }
 
+.myself {
+    display: flex;
+    justify-content: space-around;
+}
+
 .icons {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    width: 200px
+    width: 150px
 }
