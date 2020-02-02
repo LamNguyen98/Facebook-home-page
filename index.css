@@ -1,3 +1,7 @@
+body {
+    user-select: none;
+}
+
 #bluebar {
     font-family: Arial, sans-serif;
     background-color: #4267b2;
@@ -158,4 +162,43 @@
 .name {
     padding-left: 7px;
     flex-grow: 1;
+}
+
+#left-col {
+    position: fixed;
+    top: 60px;
+    margin-left: 55px;
+    width: 170px;
+    height: 585px;
+}
+
+.myself-left {
+    display: flex;
+    align-items: center;
+}
+
+.name-left {
+    margin-left: 5px;
+}
+
+.news {
+    display: flex;
+    margin-top: 15px;
+}
+
+.news-content {
+    margin-left: 5px;
+    flex-grow: 1;
+}
+
+.news-selector {
+    color: rgb(161, 159, 159);
+}
+
+#main-container {
+    position: relative;
+    top: 42px;
+    margin-left: 55px;
+    width: 710px;
+    height: 1000px;
 }
