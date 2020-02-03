@@ -1,5 +1,8 @@
 body {
+    display: flex;
     user-select: none;
+    background-color:#e9ebee;
+    z-index: -1;
 }
 
 #bluebar {
@@ -15,6 +18,7 @@ body {
     display: flex;
     align-items: center;
     height: 42px;
+    z-index: 1;
 }
 
 .container {
@@ -102,6 +106,7 @@ body {
     top: 42px;
     width: 205px;
     height: 585px;
+    z-index: 1;
 }
 .game {
     border-bottom: solid 1px rgba(0, 0, 0, 0.164);
@@ -156,7 +161,7 @@ body {
 }
 
 .person:hover {
-    background-color: rgb(233, 230, 230);
+    background-color: rgb(216, 213, 213);
 }
 
 .name {
@@ -170,23 +175,25 @@ body {
     margin-left: 55px;
     width: 170px;
     height: 585px;
+    z-index: 1;
 }
 
 .myself-left {
     display: flex;
     align-items: center;
+    margin-bottom: 15px;
 }
 
 .name-left {
     margin-left: 5px;
 }
 
-.news {
+.left-content {
     display: flex;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
-.news-content {
+.left-text {
     margin-left: 5px;
     flex-grow: 1;
 }
@@ -195,10 +202,39 @@ body {
     color: rgb(161, 159, 159);
 }
 
+.watch-icon {
+    color: rgb(255, 56, 42);
+}
+
+.shortcut {
+    margin-top: 20px;
+}
+
 #main-container {
     position: relative;
-    top: 42px;
+    top: 50px;
+    left: 200px;
     margin-left: 55px;
-    width: 710px;
+    width: 800px;
     height: 1000px;
+    display: flex;
 }
+
+.newsfeed {
+    width: 60%;
+}
+
+.your-status {
+    width: 99%;
+    border: 1px solid #f5f6f7;
+}
+
+.your-status-upper {
+    display: flex;
+    height: 30px;
+    width: 98%;
+    background-color: #f5f6f7;
+    align-items: center;
+    padding-left: 2%;
+}
+
